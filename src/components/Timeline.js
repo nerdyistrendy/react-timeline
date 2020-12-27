@@ -9,7 +9,7 @@ const Timeline = (props) => {
       <li key = {i}>
         < TimelineEvent person={event.person} 
                         status={event.status} 
-                        time={event.timestamp}/>
+                        timeStamp={event.timeStamp}/>
       </li>
 
     )
